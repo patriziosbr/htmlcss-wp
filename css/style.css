@@ -9,12 +9,10 @@
     height: 100px;
     background-color: #E579E6;
 } */
-.hero {
-    height: 500px;
+/* .hero {
     background-color: #E1D67A;
-}
+} */
 main {
-    padding-bottom: 20px;
     background-color: #0087FF;
 }
 aside,
@@ -44,10 +42,13 @@ footer {
     padding: 16px 8px 16px 0;
 }
 .list-inline a {
-    font-size: 20px;
-    color: gray;
+    font-size: 18px;
+    color: #939393;
     text-decoration: none;
     text-transform: uppercase;
+}
+.list-inline a:hover{
+    color: rgb(0, 0, 0);
 }
 /*start*/
 body {
@@ -64,7 +65,37 @@ body {
     margin: 30px 0;
 }
 .hero {
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
     margin-bottom: 30px;
+}
+.hero-layer {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    position: relative;
+}
+.txt-container h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+.txt-container p {
+    font-size: 18px;
+    color: #ffffff;
+}
+.txt-container {
+    max-width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 68px 48px;
+}
+
+main {
+    padding-bottom: 20px;
 }
 .bar {
     height: 85px; /*debug*/
