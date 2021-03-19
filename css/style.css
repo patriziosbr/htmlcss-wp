@@ -20,10 +20,10 @@
     height: 540px;
     background-color: #ABCFE7;
 } */
-footer {
+/* footer {
     height: 60px;
     background-color: #8801FE;
-}
+} */
 /* common */
 *{
     box-sizing: border-box;
@@ -166,7 +166,11 @@ p {
 footer {
     text-align: center;
 }
+footer p {
+    vertical-align: middle;
+}
 .p-black span {
     color: red;
     font-size: 24px ;
+    vertical-align: middle;
 }
