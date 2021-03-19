@@ -1,7 +1,10 @@
 /* debug */
-#logo-container{
+
+/* #logo-container{
     height: 100px;
-}
+     background-color: #8801FE;
+} */
+
 /* .nav {
     height: 100px;
     background-color: #E579E6;
@@ -47,9 +50,15 @@ footer {
     text-transform: uppercase;
 }
 /*start*/
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
 .container {
     width: 70%;
     margin: auto;
+}
+#logo-container img {
+    max-height: 80px;
 }
 .nav {
     margin: 30px 0;
